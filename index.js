@@ -8,7 +8,7 @@ function breakOut(array,changeValue,stopValue){
   return array;
 }
 function keepGoing(array, changeValue, skipValue){
-  for(let i-0;i<array.length;i++){
+  for(let i=0;i<array.length;i++){
     if(array[i]==skipValue){
       continue;
     }
