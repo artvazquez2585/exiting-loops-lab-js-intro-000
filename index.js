@@ -16,3 +16,8 @@ function keepGoing(array, changeValue, skipValue){
   }
   return array;
 }
+function findBy(array, findFn){
+  for(i=0,i<array.length;i++){
+    findFn(array[i]);
+  }
+}
